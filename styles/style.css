@@ -7,7 +7,7 @@
 }
         /* nav-Section styles */
 .container{
-    width: 90%;
+    max-width: 1240px;
     margin: 50px auto;
 }
 .nav-bar{
@@ -25,6 +25,10 @@
     text-decoration: none;
     color: black;
 }
+.fa{
+        display: none;
+}
+
     /* header Section */
 
 .as-influencer{
@@ -76,9 +80,9 @@
     margin: 80px auto;
 }
 .sponsor{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 40px;
 }
 .sponsor img{
     width: 100%;
