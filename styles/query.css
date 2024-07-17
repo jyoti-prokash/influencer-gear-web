@@ -15,26 +15,39 @@
         flex-direction: column-reverse;
         width: 100%;
         margin: 0 auto;
+        border: 2px solid green;
     }
     .as-influencer{
-        align-items: center;
         text-align: center;
-        margin: 50px auto;
+        margin: 0px auto;
         width: 100%;
+        border: 2px solid red;
     }
     .as-influencer h1{
         font-size: 2rem;
         font-weight: 800;
         margin: 0 auto;
         width: 100%;
+        height: fit-content;
     }
     .main-camera{
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
+        padding-top: 40px;
+        background-position: center;
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+    .main-camera img{
+        width: 100%;
+    }
+    .main-section{
+        margin: 30px auto;
     }
     .sponsor{
         grid-template-columns: repeat(4, 1fr);
-        gap: 40px;
+        gap: 30px;
+        padding-top: 50px;
     }
     .sponsor img{
         width: 100%;
@@ -42,16 +55,18 @@
     .section-card{
         text-align: center;
         width: 100%;
-        margin: 0 auto;
+        margin: 0px auto;
     }
     .section-card h2{
-        margin-bottom: 20px;
         font-size: 1.90rem;
+        margin: 0 auto;
     }
     .card-container{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
-        padding: 60px;
+        padding: 30px;
+        margin: 0px auto;
+        padding-left: 50px;
 }
     .see-more{
         width: 100%;
