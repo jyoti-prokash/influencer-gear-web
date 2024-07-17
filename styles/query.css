@@ -15,13 +15,11 @@
         flex-direction: column-reverse;
         width: 100%;
         margin: 0 auto;
-        border: 2px solid green;
     }
     .as-influencer{
         text-align: center;
         margin: 0px auto;
         width: 100%;
-        border: 2px solid red;
     }
     .as-influencer h1{
         font-size: 2rem;
